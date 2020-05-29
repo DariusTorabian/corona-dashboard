@@ -89,19 +89,19 @@ git clone https://github.com/dariustorabian/corona-dashboard.git
 conda create --name <NameOfEnvironment> --file requirements.txt
 ```
 
-3. Run [get_and_clean_data.py](https://github.com/dariustorabian/corona-dashboard/src/get_and_glean_data.py). This script will fetch the newest data and output cleaned csvs with data on regional- and country-level.
+3. Run [get_and_clean_data.py](https://github.com/dariustorabian/corona-dashboard/blob/master/src/get_and_glean_data.py). This script will fetch the newest data and output cleaned csvs with data on regional- and country-level.
 
 4. If you'd like to push the data to your DB, please provide an environment variable in the format 
 
     ```DB_STRING=mysql://username:password@host/dbname```
 
-    Then run [db_update.py](https://github.com/dariustorabian/corona-dashboard/src/db_update.py). I've only used data on country-level, therefore this script will only push the csv with country-level data to the DB you specify.
+    Then run [db_update.py](https://github.com/dariustorabian/corona-dashboard/blob/master/src/db_update.py). I've only used data on country-level, therefore this script will only push the csv with country-level data to the DB you specify.
 
 5. Set up Metabase on your Machine, connect the DB and create your own Dashboard.
 
 6. With the help of the included ```countries_mapping.csv``` from [DataHub.io](https://datahub.io/core/country-list) it is possible to match the data with ISO 3166-1 country codes to easily display the data on maps inside Metabase.
 
-7. Execute the provided [corona_update.sh](https://github.com/dariustorabian/corona-dashboard/src/corona_update.sh) once a day to get the newest data pushed into your DB. I automated this process with a cronjob.
+7. Execute the provided [corona_update.sh](https://github.com/dariustorabian/corona-dashboard/blob/master/src/corona_update.sh) once a day to get the newest data pushed into your DB. I automated this process with a cronjob.
 
 
 <!-- ROADMAP -->
