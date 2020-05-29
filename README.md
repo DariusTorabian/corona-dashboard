@@ -97,7 +97,7 @@ conda create --name <NameOfEnvironment> --file requirements.txt
 
     Then run [db_update.py](https://github.com/dariustorabian/corona-dashboard/blob/master/src/db_update.py). I've only used data on country-level, therefore this script will only push the csv with country-level data to the DB you specify.
 
-5. Set up Metabase on your Machine, connect the DB and create your own Dashboard.
+5. Set up Metabase on your machine, connect the DB and create your own Dashboard. I've used an AWS EC2 for that and AWS RDS as the DB.
 
 6. With the help of the included ```countries_mapping.csv``` from [DataHub.io](https://datahub.io/core/country-list) it is possible to match the data with ISO 3166-1 country codes to easily display the data on maps inside Metabase.
 
@@ -140,7 +140,7 @@ Darius Torabian
 
 * Feel free to contact me via [mail](mailto:darius.torabian@gmail.com).
 * Here's my [linkedin profile](linkedin-url).
-* My twitter-handle is:[@darius_torabian](https://twitter.com/darius_torabian)
+* My twitter-handle is:[@darius_torabian](https://twitter.com/darius_torabian).
 * This is my [website](https://dariustorabian.de).
 
 Project Link: [https://github.com/dariustorabian/corona-dashboard](https://github.com/dariustorabian/corona-dashboard)
