@@ -79,7 +79,7 @@ I'd advice you to create an own virtual environment for this project. I'm using 
 
 
 ### Installation & Usage
- 
+
 1. Clone the repo
 ```sh
 git clone https://github.com/dariustorabian/corona-dashboard.git
@@ -91,9 +91,9 @@ conda create --name <NameOfEnvironment> --file requirements.txt
 
 3. Run [get_and_clean_data.py](https://github.com/dariustorabian/corona-dashboard/blob/master/src/get_and_glean_data.py). This script will fetch the newest data and output cleaned csvs with data on regional- and country-level.
 
-4. If you'd like to push the data to your DB, please provide an environment variable in the format 
+4. If you'd like to push the data to your DB, please provide an environment variable in the format
 
-    ```DB_STRING=mysql://username:password@host/dbname```
+    `DB_STRING=mysql://username:password@host/dbname`
 
     Then run [db_update.py](https://github.com/dariustorabian/corona-dashboard/blob/master/src/db_update.py). I've only used data on country-level, therefore this script will only push the csv with country-level data to the DB you specify.
 
@@ -170,5 +170,5 @@ Project Link: [https://github.com/dariustorabian/corona-dashboard](https://githu
 [license-shield]: https://img.shields.io/github/license/dariustorabian/corona-dashboard.svg?style=flat-square
 [license-url]: https://github.com/dariustorabian/corona-dashboard/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: www.linkedin.com/in/dariustorabian
+[linkedin-url]: https://www.linkedin.com/in/dariustorabian
 [product-screenshot]: images/screenshot.png
