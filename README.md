@@ -139,7 +139,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Darius Torabian
 
 * Feel free to contact me via [mail](mailto:darius.torabian@gmail.com).
-* Here's my [linkedin profile](linkedin-url).
+* Here's my [linkedin profile](https://www.linkedin.com/in/dariustorabian).
 * My twitter-handle is:[@darius_torabian](https://twitter.com/darius_torabian).
 * This is my [website](https://dariustorabian.de).
 
